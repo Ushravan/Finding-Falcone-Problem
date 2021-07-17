@@ -43,10 +43,10 @@ var app = app || {};
 
                 // console.log(data);
                 if (data.status === 'success') {
-                    window.alert(`Falcone found in ${data.planet_name}!!!`);
+                        alert(`Falcone found in ${data.planet_name}!!!`);
                 }
                 else {
-                    window.alert("Try Again");
+                        alert("Try Again");
                 }
             });
         })
