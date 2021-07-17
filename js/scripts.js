@@ -43,7 +43,7 @@ var app = app || {};
 
                 // console.log(data);
                 if (data.status === 'success') {
-                        alert(`Falcone found in ${data.planet_name}!!!`);
+                        alert(`Success! Congratulations on Finding Falcone King Shan is mightly Pleased.\n Falcone found in ${data.planet_name}!!!`);
                 }
                 else {
                         alert("Try Again");
